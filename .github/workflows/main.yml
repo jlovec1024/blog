@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js 10.x
         uses: actions/setup-node@master
         with:
-          node-version: "10.x"
+          node-version: "12.x"
       - name: Setup Hexo Dependencies
         env:
           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}

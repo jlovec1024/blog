@@ -1,13 +1,9 @@
-name: CI Hexo Blog Deploy LTS
+name: Deploy To Github Pages
 
-on:
-  push:
-    branches: [ master ]
+on: [push, repository_dispatch]
 
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  Deploy-Pages:
+  deploy:
     name: Deploy Hexo Public To Pages
     runs-on: ubuntu-latest
     env:
@@ -25,13 +21,13 @@ jobs:
         run: |
           npm install hexo-cli -g
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          external_repository: jlovec1024/jlovec1024.github.io
-          publish_branch: master
-          publish_dir: ./public
-          commit_message: ${{ github.event.head_commit.message }}
+#      - name: Deploy
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
+#          external_repository: jlovec1024/jlovec1024.github.io
+#          publish_branch: master
+#          publish_dir: ./public
+#          commit_message: ${{ github.event.head_commit.message }}
 
 

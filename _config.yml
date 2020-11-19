@@ -149,7 +149,7 @@ hexo_external_link:
   target_blank: true
   link_rel: 'external nofollow noopener noreferrer'
   domain: 'jlovec1024.github.io' # 如果开启了防盗链
-  safety_chain: true
+  safety_chain: false
 feed:
   type: atom
   path: atom.xml

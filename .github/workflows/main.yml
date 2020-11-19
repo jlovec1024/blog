@@ -23,6 +23,7 @@ jobs:
           npm install yuque-hexo -g
           npm install
           npm run start
+          ls -al
 
 
 #      - name: Deploy

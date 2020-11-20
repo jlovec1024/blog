@@ -129,6 +129,16 @@
         document.addEventListener("visibilitychange",function(){ 
             document.hidden?(document.title="ヽ(●-`Д´-)ノ风里雨里我在等你~",clearTimeout(st)):(document.title="(๑•̀ㅂ•́) ✧ 欢迎回来~~！",st=setTimeout(function(){document.title=OriginTitile},3e3)) 
             })
+
+        var link = "" ;
+        $("img").each( (i,o) => {
+            var o = $(o);
+            if( o.attr("src").indexOf("yuque") > 0 ){
+                o.attr("referrerpolicy","no-referrer");
+                link = o.attr("src");
+                o.attr("src",link);
+            }
+        });
     </script>
 
     <div id="he-plugin-simple"></div>
@@ -157,17 +167,6 @@
     }
     </script>
     <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-    <script>
-      var link = "" ;
-      $("img").each( (i,o) => {
-        var o = $(o);
-        if( o.attr("src").indexOf("yuque") > 0 ){
-          o.attr("referrerpolicy","no-referrer");
-          link = o.attr("src");
-          o.attr("src",link);
-        }
-      });
-    <script/>
 </body>
 
 </html>

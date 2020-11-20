@@ -31,9 +31,9 @@ menu:
     url: /data
     icon: fa fa-list-alt
 
-  友链:
-    url: /friends
-    icon: fas fa-address-book    
+  #友链:
+  #  url: /friends
+  #  icon: fas fa-address-book    
 
   About:
     url: /about
@@ -178,10 +178,10 @@ code:
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
-  enable: false
+  enable: true
   title: 你的赏识是我前进的动力
-  wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
+  wechat: /medias/reward/wechat.jpeg
+  alipay: /medias/reward/alipay.jpeg
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -216,7 +216,7 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: true
+  enable: false
 
 # 是否激活点击页面的'烟花爆炸'效果，默认不激活.
 clickfire:
@@ -519,7 +519,7 @@ addthis:
 # 打字效果副标题.已经添加今日诗词API，如果  enable: false 即可开启
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
-  enable: true
+  enable: false
   loop: true # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟

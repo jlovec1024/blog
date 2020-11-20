@@ -142,7 +142,7 @@ indexbtn:
   enable: false
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/hongweifuture
+  url: https://github.com/jlovec1024
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -151,7 +151,7 @@ indexbtn:
 socialLink:
   github:  https://github.com/hongweifuture
   csdn: https://blog.csdn.net/z_johnny
-  email: 289967396@qq.com
+  email: jlovec1024@163.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
   qq: 289967396

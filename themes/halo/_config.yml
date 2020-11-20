@@ -149,7 +149,7 @@ indexbtn:
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 # 当前设置banner的高度为70，保留下面的不美观，但已经上移，可以添加
 socialLink:
-  github:  https://github.com/jlavec1024
+  github:  https://github.com/jlovec1024
   csdn: #https://blog.csdn.net/z_johnny
   email: jlovec1024@163.com
   facebook: # https://www.facebook.com/xxx

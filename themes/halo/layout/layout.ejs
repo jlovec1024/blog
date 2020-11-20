@@ -157,6 +157,17 @@
     }
     </script>
     <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
+    <script>
+      var link = "" ;
+      $("img").each( (i,o) => {
+        var o = $(o);
+        if( o.attr("src").indexOf("yuque") > 0 ){
+          o.attr("referrerpolicy","no-referrer");
+          link = o.attr("src");
+          o.attr("src",link);
+        }
+      });
+    <script/>
 </body>
 
 </html>

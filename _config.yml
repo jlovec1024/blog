@@ -149,8 +149,8 @@ hexo_external_link:
   html_file_name: 'go.html'
   target_blank: true
   link_rel: 'external nofollow noopener noreferrer'
-  domain: 'jlovec1024.github.io' # 如果开启了防盗链
-  safety_chain: false
+  domain: 'jlovec.net' # 如果开启了防盗链
+  safety_chain: true
 feed:
   type: atom
   path: atom.xml

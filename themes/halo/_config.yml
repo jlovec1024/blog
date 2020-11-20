@@ -84,7 +84,7 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: true
+  enable: false
   showTitle: false 
   title: 不追随
   # text:dream 放弃不难，但坚持一定很酷。——《解忧杂货铺》 
